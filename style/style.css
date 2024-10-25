@@ -1,0 +1,109 @@
+.imga{
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.hidde{
+	display: block;
+}
+.hidda{
+	display: none;
+}
+.imgb{
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.hy{
+	width: 75%;
+	height: 45px;
+	border-radius: 45px;
+	background-color: #eaf8f8;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	align-items: center;
+}
+.hy img{
+	width: 30px;
+	height: 60px;
+	margin: 0 10px;
+}
+input{
+	border: none;  
+	outline: none;
+	 background-color: #eaf8f8;
+}
+input[type="text"]{
+	flex: 1;
+	padding: 5px;
+	border: none;
+}
+.pass{
+	width: 75%;
+	height: 45px;
+	border-radius: 45px;
+	background-color: #eaf8f8;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	align-items: center;
+}
+.pass img{
+	width: 30px;
+	height: 60rpx;
+	margin: 0 10px;
+}
+.denglvanniou{
+	width: 75%;
+	height: 45px;
+	border-radius: 45px;
+	background-color: #12b5b0;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.qiehuan{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	position: relative;
+	    top: 67vh;
+	}
+.qiehuan .gang{
+	    width: 111px;
+	    height: 1px;
+	    background-color: black;
+}
+footer{
+display: flex;
+    font-size: 8px;
+    position: relative;
+    bottom: -84vh;
+    justify-content: center;
+}
+footer span{
+	color: #12b5b0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}

@@ -1,0 +1,229 @@
+         .local-nav{
+    display: flex;
+    width: 100vw;
+    height: 130px;
+    background-color: #12b5b0;
+    justify-content: space-between;
+    align-items: center;
+            }
+
+            .local-nav li{
+                flex: 1;
+            }
+
+            a{
+                text-decoration: none;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .local-nav a{
+                display: flex;
+                /* x轴横向对齐 */
+                flex-direction: column;
+                /* y轴中心对齐 */
+                align-items: center;
+            }
+
+            .local-nav-icon img{
+                width: 40px;
+                height: 40px;
+            }
+            .bbx{
+                width: 100%;
+                height: 129px;
+
+            }
+			
+			
+			.box{
+    width: 100%;
+    height: 75vh;
+    background-color: #fff;
+    position: relative;
+    top: -18px;
+    border-radius: 21px 21px 0px 0px;
+			}
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			.wendan{
+				    width: 90%;
+				    height: 147px;
+				    box-shadow: 3px 2px 4px #939393;
+				    border-radius: 23px;
+				    position: relative;
+				    top: 28px;
+				    left: 21px;
+			}
+			.mingzi{
+				    display: flex;
+				    align-items: center;
+				    position: relative;
+				    top: 12px;
+				    left: 12px;
+			}
+			
+			.yuan{
+				    width: 149px;
+				    height: 50px;
+				    border-radius: 45px;
+				    background-color: #c9eae9;
+;
+				    display: flex;
+				    justify-content: space-evenly;
+				    align-items: center;
+				    position: relative;
+				    top: 35px;
+				    left: 12px;
+					color: #12b5b0;
+			}
+			.liange{
+				    width: 95%;
+				    display: flex;
+				    justify-content: space-between;
+			}
+
+
+
+
+.biaoti{
+    width: 100%;
+    height: 25px;
+    position: relative;
+    top: 49px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    /* margin: 0px 13px; */
+		}
+.biaoti div{
+	
+	    width: 5px;
+	    height: 20px;
+	    background-color: #12b5b0;
+	    border-radius: 20px;
+	    margin: 1px 7px;
+
+}
+
+
+.wendan2{
+    width: 90%;
+    height: 100px;
+    box-shadow: 3px 2px 4px #939393;
+    border-radius: 23px;
+    position: relative;
+    top: 63px;
+    left: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: #939393;
+}
+.wendan2 img{
+	width: 35px;
+	height: 35px;
+}
+
+.biaoti{
+    width: 100%;
+    height: 25px;
+    position: relative;
+    top: 49px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    /* margin: 0px 13px; */
+		}
+.biaoti div{
+	
+	    width: 5px;
+	    height: 20px;
+	    background-color: #12b5b0;
+	    border-radius: 20px;
+	    margin: 1px 7px;
+
+}
+
+.biaoti3{
+    width: 93%;
+    height: 25px;
+    position: relative;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.biaoti3 .q div{
+	
+	    width: 5px;
+	    height: 20px;
+	    background-color: #12b5b0;
+	    border-radius: 20px;
+	    margin: 1px 7px;
+
+}
+.q{
+	display: flex;
+}
+.wendan3{
+    width: 90%;
+    height: 100px;
+    box-shadow: 3px 2px 4px #939393;
+    border-radius: 23px;
+    position: relative;
+    top: 2vh;
+    left: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: #939393;
+}
+.zxc{
+	    position: relative;
+	    top: 81px;
+}
+.local-nav a{
+	color: #fff;
+}
+.local-nav span{
+	font-size: 13px;
+}
+/* ------------------------------------------- */
+
+        .dibu{
+            width: 100%;
+            height: 60px;
+			position: relative;
+			    top: -38px;
+        }
+        ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-evenly;
+        }
+
+        .hezi{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .pvs img{
+            width: 33px;
+            height: 33px;
+        }
+		.hezi span{
+			font-size: 13px;
+		}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+        CSS.supports('top: constant(a)'))
+      document.write(
+        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+        (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
+	<link rel="stylesheet" href="./style/style.css" />
+    <title></title>
+    <!--preload-links-->
+    <!--app-context-->
+  </head>
+  <body>
+    <img src="img/Screenshot_20240930_220326.jpg" alt="" class="imga" id="imga"/>
+	<div class="quanbu" id="quanbu">
+		<div class="logon">
+			<img src="./img/Screen23948.png" alt="" class="imgb"/>
+			
+			<div class="hy">
+				<img src="./img/hy.png" alt="" />
+				<input type="text"  placeholder="用户"/>
+				<img src="./img/jiantou.png" alt="" style="width: 15px;height: 15px;"/>
+			</div>
+			
+			<div class="pass">
+				<img src="./img/pass.png" alt="" />
+				<input type="password" placeholder="密码"/>
+			</div>
+		</div>
+		
+		<div class="denglvanniou">
+			<a href="./shouye.html"></a>
+			<button id="bnt" style="border: none; background-color:#12b5b0 ; color: #fff ;display: flex;left: 50%;">登录</button>
+		</div>
+		
+		<div class="qiehuan">
+		
+				<div class="gang"></div>
+				<p>切换登录方式</p>
+				<div class="gang"></div>
+			
+		</div>
+		
+		<footer>
+			<p><span>《用户服务协议》</span>和<span>《隐私政策》</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前版本：10.1.1.1.1.123<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>设置登录地址</span></p>
+		</footer>
+	</div>
+    <script type="module" src="/main.js"></script>
+	<script src="script/script.js"></script>
+  </body>
+</html>
